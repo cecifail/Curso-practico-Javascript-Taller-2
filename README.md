@@ -2,9 +2,9 @@
 
 ...
 
-## Taller #1: Figuras Geométricas
+## Taller #2: Discounts and Percents
 
--Primer paso: Definir las formulas
--Segundo paso: implementar formulas en JavaScrips
--Tercer paso: crear funciones
--Cuarto paso: Integrar JavaScript con HTML
+-Primer paso: Define formulas
+-Segundo paso: set formulas on JavaScrips
+-Tercer paso: create functions
+-Cuarto paso: Integrate JavaScript with HTML

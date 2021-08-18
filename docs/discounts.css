@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    justify-content: space-between;;
+    background-color: gray;
+    padding: 10px;
+    
+    margin: 0px;
+}
+
+.logo{
+height: 40px;
+padding-top: 12px;
+}
+
+header p {
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body p {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.discountSection {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 25%;
+    border: 2px solid rgb(59, 58, 58);
+    border-radius: 30px;
+}
+
+.discountForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.discountSection h2 {
+    text-align: center;
+}
+
+body label {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+body input {
+    align-self: center;
+    width: 50%;
+    margin: 10px;
+    height: 50px;
+    border-radius:10px;
+    background-color: rgb(232, 241, 143);
+}
+
+body button {
+    align-self: center;
+    margin: 20px;
+    border-radius: 20px;
+    width: 20%;
+    height: 40px;
+    font-size: 15px;
+}

@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discounts and Percents</title>
     <script src="discounts.js"></script>
-
+    <link rel="stylesheet" href="discounts.css">
+    <style ></style>
 </head>
+
+<header>
+    <img class="logo" src="../Icons/apple.png" alt="Logo">
+    <p>Discount Calculator</p>
+</header>
+
 <body>
     <h1>Percent and discounts</h1>
-    
+    <p>You just searched for "how to calculate discounts"<br>Well, let´s do it</p>
+    <section class="discountSection">
+        <h2>This will calculate the price to pay for your products with discount</h2>
+            <form class="discountForm">
+                <label for="InputPrice">Put your product price</label>
+                    <input id="InputPrice" type="number">
+                <label for="InputDiscount"> Discount me this </label>
+                    <input id="InputDiscount" type="number">
+                <button type="button" onclick="onClickPriceWithDiscount()">
+                    Split the price
+                </button>
+                <p id="priceResult"></p>
+            </form>
+    </section>
 </body>
 </html>
