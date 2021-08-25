@@ -63,6 +63,7 @@ body input {
     height: 50px;
     border-radius:10px;
     background-color: rgb(232, 241, 143);
+    justify-self: center;
 }
 
 body button {
@@ -72,4 +73,24 @@ body button {
     width: 20%;
     height: 40px;
     font-size: 15px;
+    background-color: #B6FFA3;
 }
+
+#priceResult {
+
+    border: 2px solid gray;
+    margin: 30px 30%;
+    font-size: 20px;
+
+}
+
+input[type=number] {
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=text] {
+    font-size: 20px;
+    text-align: center;
+}
+

@@ -4,32 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./discounts.css">
     <title>Discounts and Percents</title>
-    <script src="discounts.js"></script>
-    <link rel="stylesheet" href="discounts.css">
-    <style ></style>
 </head>
-
-<header>
-    <img class="logo" src="../Icons/apple.png" alt="Logo">
-    <p>Discount Calculator</p>
-</header>
-
 <body>
+    <header>
+        <img class="logo" src="../Icons/apple.png" alt="Logo">
+        <p>Discount Calculator</p>
+    </header>
     <h1>Percent and discounts</h1>
-    <p>You just searched for "how to calculate discounts"<br>Well, let´s do it</p>
+    <p>Will your Luck give you a discount?<br>Well, let´s try it</p>
     <section class="discountSection">
         <h2>This will calculate the price to pay for your products with discount</h2>
-            <form class="discountForm">
-                <label for="InputPrice">Put your product price</label>
-                    <input id="InputPrice" type="number">
-                <label for="InputDiscount"> Discount me this </label>
-                    <input id="InputDiscount" type="number">
-                <button type="button" onclick="onClickPriceWithDiscount()">
-                    Split the price
-                </button>
-                <p id="priceResult"></p>
-            </form>
+        <form class="discountForm">
+            <label for="InputPrice">Put your product price:</label>
+            <input type="number" id="InputPrice">
+
+            <label for="inputCoupon">Now, gimme the magic word</label>
+            <input type="text" id="inputCoupon">
+
+            <button type="button" onclick="onClickButtonPriceDiscount()"> Split the price </button>
+
+            <p id="priceWithCoupon"></p>
+        </form>
     </section>
+    <script src="./discounts.js"></script>
 </body>
 </html>
